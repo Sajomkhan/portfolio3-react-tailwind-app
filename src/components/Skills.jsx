@@ -13,13 +13,13 @@ import Mongo from '../assets/mongo.png';
 
 const Skills = () => {
     return (
-        <div name='skills' className="max-w-[1000px] mx-auto h-screen bg-[#f1f1e8]">
-            <div className='max-w-[800px] mx-auto p-4 flex flex-col justify-center w-full h-screen'>
+        <div name='skills' className="max-w-[1000px] sm:h-screen mx-auto bg-[var(--bg)]">
+            <div className='max-w-[800px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
-                    <p className='text-4xl my-4 font-bold inline border-b-4 border-[#a49020]'>Experiences</p>
+                    <p className='text-4xl my-4 font-bold inline border-b-4 border-[var(--headline)]'>Experiences</p>
                     <p className='my-8 font-bold'>//These are the technologies I've worked with :</p>
                 </div>
-                <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-4'>
+                <div className='w-full mb-11 grid grid-cols-2 px-10 md:grid-cols-3 lg:grid-cols-4 gap-6 text-center py-4'>
                     <div className='shadow-md shadow-black hover:scale-110 duration-300 pt-3 rounded-lg'>
                         <img className='w-20 mx-auto' src={HTML} alt="HTML Icon" />
                         <p className='font-bold my-2'>HTML</p>
